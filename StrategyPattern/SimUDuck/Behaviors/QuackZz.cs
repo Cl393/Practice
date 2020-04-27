@@ -4,11 +4,11 @@ using System.Text;
 
 namespace SimUDuck
 {
-  public  class RedheadDuck :Duck
+    public class QuackZz : IQuackBehavior
     {
-        public override void Display()
+        public void Quack()
         {
-            Console.WriteLine("红头鸭");
+            Console.WriteLine("吱吱吱");
         }
     }
 }

@@ -4,12 +4,11 @@ using System.Text;
 
 namespace SimUDuck
 {
-  public  class MallardDuck:Duck
+    public class FlyNoWays : IFlyBehavior
     {
-
-        public override void Display() 
+        public void Fly()
         {
-            Console.WriteLine("青头鸭");
+            Console.WriteLine("我飞不了");
         }
     }
 }

@@ -4,11 +4,16 @@ using System.Text;
 
 namespace SimUDuck
 {
+    /// <summary>
+    /// 橡皮鸭
+    /// </summary>
    public class RubberDuck:Duck
     {
-        public override void Quack()
+
+        public RubberDuck() 
         {
-            Console.WriteLine("吱吱吱");
+            iQuackBehavior = new QuackZz();
+            iFlyBehavior = new FlyNoWays();
         }
         public override void Display()
         {
