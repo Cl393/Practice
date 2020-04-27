@@ -6,10 +6,6 @@ namespace SimUDuck
 {
    public class Duck
     {
-        public virtual void Quack()
-        {
-            Console.WriteLine("嘎嘎嘎");
-        }
         public void Swim()
         {
             Console.WriteLine("划水让我快乐");
@@ -19,9 +15,5 @@ namespace SimUDuck
             Console.WriteLine("我是只快乐的小鸭子");
         }
 
-        public virtual void Fly()
-        {
-            Console.WriteLine("飞吧，鸭子");
-        }
     }
 }
