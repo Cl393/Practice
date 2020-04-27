@@ -5,17 +5,19 @@ using System.Text;
 namespace SimUDuck
 {
     /// <summary>
-    /// 橡皮鸭
+    /// 红头鸭
     /// </summary>
-   public class RubberDuck:Duck,IQuackable
+  public  class RedheadDuck :Duck
     {
-        public void Quack()
+        public RedheadDuck() 
         {
-            Console.WriteLine("吱吱吱");
+            iQuackBehavior = new Quackgaga();
+            iFlyBehavior = new FlyWithWings();
         }
         public override void Display()
         {
-            Console.WriteLine("橡皮鸭");
+            Console.WriteLine("红头鸭");
         }
+
     }
 }

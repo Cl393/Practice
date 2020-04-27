@@ -4,8 +4,8 @@ using System.Text;
 
 namespace SimUDuck
 {
-   public interface IQuackable
+    public interface IFlyBehavior
     {
-        public void Quack();
+        public void Fly() ;
     }
 }

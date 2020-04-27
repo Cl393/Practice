@@ -9,7 +9,11 @@ namespace SimUDuck
     /// </summary>
    public class DecoyDuck:Duck
     {
-
+        public DecoyDuck()
+        {
+            iQuackBehavior = new QuackMute();
+            iFlyBehavior = new FlyNoWays();
+        }
         public override void Display()
         {
             Console.WriteLine("木头鸭");

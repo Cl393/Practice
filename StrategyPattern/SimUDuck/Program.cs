@@ -24,15 +24,9 @@ namespace SimUDuck
             {
                 Console.WriteLine("---------------");
                 Console.WriteLine(item.GetType());
-                MethodInfo[] methods = item.GetType().GetMethods(); 
-              
-                foreach (var m in methods)
-                {
-                    if (m.DeclaringType == item.GetType()) 
-                    {
-                        m.Invoke(item, null);
-                    }
-                }
+                item.Display();               
+                item.PerFormQuack();
+                item.PerFormFly();
             }
         }
     }
