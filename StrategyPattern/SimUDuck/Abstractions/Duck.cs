@@ -22,5 +22,14 @@ namespace SimUDuck
         {
             iFlyBehavior.Fly();
         }
+        public void setFlyBehavior(IFlyBehavior fb)
+        {
+            iFlyBehavior = fb;
+        }
+        public void setQuackBehavior(IQuackBehavior qb)
+        {
+            iQuackBehavior = qb;
+
+        }
     }
 }
