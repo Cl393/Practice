@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SimUDuck
 {
-    class QuackZz : IQuackBehavior
+    public class QuackZz : IQuackBehavior
     {
         public void Quack()
         {
