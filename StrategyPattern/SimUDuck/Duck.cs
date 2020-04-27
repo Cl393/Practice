@@ -18,5 +18,10 @@ namespace SimUDuck
         {
             Console.WriteLine("我是只快乐的小鸭子");
         }
+
+        public virtual void Fly()
+        {
+            Console.WriteLine("飞吧，鸭子");
+        }
     }
 }

@@ -5,6 +5,9 @@ using System.Reflection;
 
 namespace SimUDuck
 {
+    /// <summary>
+    /// 需要会飞的鸭子
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -13,7 +16,9 @@ namespace SimUDuck
             {
             new MallardDuck(),
             new RedheadDuck(),
-            new RubberDuck()
+            new RubberDuck(),
+            new DecoyDuck()
+
             };
             foreach (var item in ducks)
             {

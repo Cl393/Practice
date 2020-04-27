@@ -5,21 +5,21 @@ using System.Text;
 namespace SimUDuck
 {
     /// <summary>
-    /// 橡皮鸭
+    /// 木鸭子
     /// </summary>
-   public class RubberDuck:Duck
+   public class DecoyDuck:Duck
     {
         public override void Quack()
         {
-            Console.WriteLine("吱吱吱");
+            //木鸭子不会叫，就啥事情都不做吧
         }
         public override void Display()
         {
-            Console.WriteLine("橡皮鸭");
+            Console.WriteLine("木头鸭");
         }
         public override void Fly()
         {
-           //橡皮鸭子不会飞，就啥事情都不做吧
+            //木鸭子不会飞，就啥事情都不做吧
         }
     }
 }
