@@ -6,8 +6,8 @@ using WeatherApp.Base;
 namespace WeatherApp
 {
     public class WeatherData:ISubject
-    {
-        private readonly HashSet<IObserver> _observers;
+    {                   //防止重复加入
+        private readonly HashSet<IObserver> _observers;//存放观察者
         private float _temp, _humidity, _pressure;
         public WeatherData()
         {
@@ -22,7 +22,7 @@ namespace WeatherApp
         {
             _observers.Remove(observer);
         }
-
+        
         public void NotifyObservers()
         {
             foreach (var observer in _observers)
