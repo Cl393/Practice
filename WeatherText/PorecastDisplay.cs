@@ -18,7 +18,6 @@ namespace WeatherText
 
         public void Update(float a1, float b2, float c3)
         {
-
             Display();
         }
     }
