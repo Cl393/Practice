@@ -7,18 +7,42 @@ namespace WeatherText
 {
     public class PorecastDisplay : IObserver, IDisplayElement
     {
-        public PorecastDisplay(ISubject weatherDataText)
+        private float A1, B2;
+        float[] temp = new float[] { };
+        public PorecastDisplay(ISubject weatherData)
         {
-            weatherDataText.RegisterObserver(this);
-        }
-        public void Display()
-        {
-            Console.WriteLine("所以我不做人了，jojo");
+            weatherData.RegisterObserver(this);
         }
 
-        public void Update(float a1, float b2, float c3)
+        // 这个布告板只显示温度和湿度
+        public void Display()
         {
+            Console.WriteLine($"最小:{ A1}℃ 和 {B2}% 湿度");
+
+        }
+
+        public void Update(float temp, float humidity, float pressure)
+        {
+            //温度湿度
+            A1 = temp;
+            B2 = humidity;
             Display();
+        }
+        private IDisposable _unsubscriber;
+
+
+
+        public void OnCompleted()
+        {
+            Console.WriteLine("Statistics 任务完成");
+            Unsubscribe();
+        }
+
+
+        public virtual void Unsubscribe()
+        {
+            Console.WriteLine("Statistics 取消订阅");
+            _unsubscriber.Dispose();
         }
     }
 }
