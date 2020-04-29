@@ -5,7 +5,7 @@ using WeatherApp.Base;
 
 namespace WeatherApp
 {
-    public class WeatherData:ISubject
+    public class WeatherData : ISubject
     {
         private readonly HashSet<IObserver> _observers;
         private float _temp, _humidity, _pressure;
@@ -17,12 +17,10 @@ namespace WeatherApp
         {
             _observers.Add(observer);
         }
-
         public void RemoveObserver(IObserver observer)
         {
             _observers.Remove(observer);
         }
-
         public void NotifyObservers()
         {
             foreach (var observer in _observers)
@@ -34,7 +32,6 @@ namespace WeatherApp
         {
             NotifyObservers();
         }
-
         public void SetMeasurements(float temp, float humidity, float pressure)
         {
             _temp = temp;
