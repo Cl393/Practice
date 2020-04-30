@@ -18,13 +18,13 @@ namespace WeatherApp
         // 这个布告板只显示温度和湿度
         public void Display()
         {
-            Console.WriteLine($"当前状况：{_temp}℃ 和 {_humidity}% 湿度");
+            Console.WriteLine($"CurrentConditionDisplay：温度{_temp}℃ 和 湿度{_humidity}% ");
         }
-
         public void Update(float temp, float humidity, float pressure)
         {
             _temp = temp;
             _humidity = humidity;
+
             Display();
         }
     }
