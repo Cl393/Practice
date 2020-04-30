@@ -11,11 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringFormat", "StrategyPat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02观察者模式", "02观察者模式", "{FBC65125-0ED9-433F-B427-5709A9C41266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp", "02_ObserverPattern\WeatherApp\WeatherApp.csproj", "{7802A8AC-FA98-4281-94A5-6C79B6A6BDA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApp", "02_ObserverPattern\WeatherApp\WeatherApp.csproj", "{7802A8AC-FA98-4281-94A5-6C79B6A6BDA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBuiltIn", "02_ObserverPattern\WeatherBuiltIn\WeatherBuiltIn.csproj", "{7F90C431-C5CE-4271-B130-B77AA25EAF85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherBuiltIn", "02_ObserverPattern\WeatherBuiltIn\WeatherBuiltIn.csproj", "{7F90C431-C5CE-4271-B130-B77AA25EAF85}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherEvent", "02_ObserverPattern\WeatherEvent\WeatherEvent.csproj", "{BAA9C04A-96DE-4569-81D8-7A295EB4A88B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03装饰者模式", "03装饰者模式", "{ADA14523-478E-46F8-80B1-F4DB1D2C9C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternModel", "03_DecoratorPattern\DecoratorPatternModel\DecoratorPatternModel.csproj", "{BB13DE3A-63BC-488F-B937-E7D414A3305B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop", "03_DecoratorPattern\CoffeeShop\CoffeeShop.csproj", "{B728E6AA-214F-463F-8426-86E7551ED1B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +49,14 @@ Global
 		{BAA9C04A-96DE-4569-81D8-7A295EB4A88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAA9C04A-96DE-4569-81D8-7A295EB4A88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAA9C04A-96DE-4569-81D8-7A295EB4A88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB13DE3A-63BC-488F-B937-E7D414A3305B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB13DE3A-63BC-488F-B937-E7D414A3305B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB13DE3A-63BC-488F-B937-E7D414A3305B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB13DE3A-63BC-488F-B937-E7D414A3305B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B728E6AA-214F-463F-8426-86E7551ED1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B728E6AA-214F-463F-8426-86E7551ED1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B728E6AA-214F-463F-8426-86E7551ED1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B728E6AA-214F-463F-8426-86E7551ED1B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +67,8 @@ Global
 		{7802A8AC-FA98-4281-94A5-6C79B6A6BDA8} = {FBC65125-0ED9-433F-B427-5709A9C41266}
 		{7F90C431-C5CE-4271-B130-B77AA25EAF85} = {FBC65125-0ED9-433F-B427-5709A9C41266}
 		{BAA9C04A-96DE-4569-81D8-7A295EB4A88B} = {FBC65125-0ED9-433F-B427-5709A9C41266}
+		{BB13DE3A-63BC-488F-B937-E7D414A3305B} = {ADA14523-478E-46F8-80B1-F4DB1D2C9C25}
+		{B728E6AA-214F-463F-8426-86E7551ED1B4} = {ADA14523-478E-46F8-80B1-F4DB1D2C9C25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9157C9C0-9442-4534-8E47-9FF1D83CF7E2}
