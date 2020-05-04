@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherEvent", "02_Observer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03装饰者模式", "03装饰者模式", "{ADA14523-478E-46F8-80B1-F4DB1D2C9C25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternModel", "03_DecoratorPattern\DecoratorPatternModel\DecoratorPatternModel.csproj", "{BB13DE3A-63BC-488F-B937-E7D414A3305B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPatternModel", "03_DecoratorPattern\DecoratorPatternModel\DecoratorPatternModel.csproj", "{BB13DE3A-63BC-488F-B937-E7D414A3305B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop", "03_DecoratorPattern\CoffeeShop\CoffeeShop.csproj", "{B728E6AA-214F-463F-8426-86E7551ED1B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeShop", "03_DecoratorPattern\CoffeeShop\CoffeeShop.csproj", "{B728E6AA-214F-463F-8426-86E7551ED1B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeARMS", "PracticeARMS\PracticeARMS.csproj", "{28FDDC51-F177-4EA6-A0B8-B5C95A2BF418}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{B728E6AA-214F-463F-8426-86E7551ED1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B728E6AA-214F-463F-8426-86E7551ED1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B728E6AA-214F-463F-8426-86E7551ED1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FDDC51-F177-4EA6-A0B8-B5C95A2BF418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FDDC51-F177-4EA6-A0B8-B5C95A2BF418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FDDC51-F177-4EA6-A0B8-B5C95A2BF418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FDDC51-F177-4EA6-A0B8-B5C95A2BF418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{BAA9C04A-96DE-4569-81D8-7A295EB4A88B} = {FBC65125-0ED9-433F-B427-5709A9C41266}
 		{BB13DE3A-63BC-488F-B937-E7D414A3305B} = {ADA14523-478E-46F8-80B1-F4DB1D2C9C25}
 		{B728E6AA-214F-463F-8426-86E7551ED1B4} = {ADA14523-478E-46F8-80B1-F4DB1D2C9C25}
+		{28FDDC51-F177-4EA6-A0B8-B5C95A2BF418} = {ADA14523-478E-46F8-80B1-F4DB1D2C9C25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9157C9C0-9442-4534-8E47-9FF1D83CF7E2}
